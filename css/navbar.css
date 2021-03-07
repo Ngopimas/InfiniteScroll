@@ -26,6 +26,7 @@
 }
 .nav-links li a {
   color: var(--color-text);
+  font-family: "Bigilla", serif;
   font-weight: bold;
   text-decoration: none;
   font-size: 5rem;

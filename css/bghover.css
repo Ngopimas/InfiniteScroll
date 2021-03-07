@@ -6,7 +6,6 @@
 .menu__item {
   list-style-type: none;
   text-align: center;
-  margin-bottom: 1rem;
 }
 
 .menu__item a {
@@ -28,7 +27,7 @@
   object-fit: cover;
   z-index: -1;
   /* transform: scale(0) rotate(180deg); */
-  transform: rotate(30deg);
+  transform: rotate(10deg);
   opacity: 0;
   /* transition: all ease 0.5s; */
   transition: all ease-in-out 0.75s;

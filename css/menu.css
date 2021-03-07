@@ -23,6 +23,8 @@
 }
 
 .menu__item-inner {
+  font-family: "Bigilla", serif;
+  font-weight: bold;
   white-space: nowrap;
   position: relative;
   cursor: pointer;
