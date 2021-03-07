@@ -31,3 +31,11 @@ a:focus {
   color: var(--color-pink);
   outline: none;
 }
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 2%;
+  height: 60px;
+  width: 60px;
+}

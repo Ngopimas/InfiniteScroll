@@ -73,10 +73,10 @@
 
 @media screen and (min-width: 53em) {
   .menu__item {
-    margin-right: 15vw;
+    margin-right: 20%;
   }
   .menu__item-inner {
     padding: 1vh 0;
-    font-size: 9.5vh;
+    font-size: 8vh;
   }
 }

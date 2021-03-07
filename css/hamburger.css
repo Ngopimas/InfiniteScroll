@@ -10,7 +10,7 @@
 label {
   z-index: 100;
   position: absolute;
-  top: 5%;
+  top: 50px;
   right: 5%;
   display: block;
   width: 30px;
@@ -21,8 +21,7 @@ label {
 }
 
 label div {
-  width: 6px;
-  height: 6px;
+  height: 5px;
   background-color: var(--color-text);
   margin-left: 0;
   margin-bottom: 6px;
@@ -32,15 +31,15 @@ label div {
 }
 
 label div:first-child {
-  width: 24px;
+  width: 22px;
 }
 
 label div:nth-child(2) {
-  width: 16px;
+  width: 14px;
 }
 
 label div:last-child {
-  width: 24px;
+  width: 22px;
   margin-bottom: 0;
 }
 
