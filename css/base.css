@@ -1,21 +1,14 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
 :root {
   font-size: 16px;
+  --color-text: #060606;
+  --color-bg: #f3eee8;
+  --color-brown: #e2dacc;
+  --color-red: #d73234;
+  --color-blue: #9cb6c1;
+  --color-pink: #f7c0c9;
 }
 
 body {
-  margin: 0;
-  --color-text: #111;
-  --color-bg: #fff;
-  --color-link: #c0092b;
-  --color-link-hover: #000;
-  --color-menu: #000;
-  --color-menu-hover: #c0092b;
   color: var(--color-text);
   background-color: var(--color-bg);
   -webkit-font-smoothing: antialiased;
@@ -28,13 +21,13 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--color-link);
+  color: var(--color-red);
   outline: none;
   cursor: pointer;
 }
 
 a:hover,
 a:focus {
-  color: var(--color-link-hover);
+  color: var(--color-pink);
   outline: none;
 }

@@ -29,14 +29,14 @@
   font-size: 7vw;
   padding: 0.5rem;
   display: block;
-  color: var(--color-menu);
+  color: var(--color-text);
   transition: transform 0.2s;
 }
 
 .menu__item-inner:hover {
   font-style: italic;
   transform: translate3d(2rem, 0, 0);
-  color: var(--color-menu-hover);
+  color: var(--color-red);
 }
 
 .menu__item-inner::before {
