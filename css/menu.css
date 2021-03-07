@@ -19,7 +19,17 @@
 .menu__item {
   flex: none;
   margin-right: 4rem;
-  padding: 0 2rem 0 0;
+  padding: 1rem;
+}
+
+.menu__item-episode {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nenu__item-title {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .menu__item-inner {
@@ -57,15 +67,22 @@
   opacity: 1;
 }
 
-/* Pseudo-element for making sure that hover area is active */
-.menu__item-inner:hover::after {
-  content: "";
+.menu__item-inner::after {
+  content: url("../assets/img/play-button.svg");
+  width: 2rem;
+  height: 1px;
+  bottom: 100%;
   position: absolute;
-  top: 0;
-  left: -5.5rem;
-  right: 0;
-  height: 100%;
+  left: calc(100% + 2rem);
+  opacity: 0;
+  pointer-events: none;
 }
+
+.menu__item-inner:hover::after {
+  opacity: 1;
+}
+
+/* Pseudo-element for making sure that hover area is active */
 
 ::-webkit-scrollbar {
   display: none;
