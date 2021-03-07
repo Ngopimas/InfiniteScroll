@@ -33,9 +33,22 @@ a:focus {
 }
 
 .logo {
+  cursor: pointer;
+  z-index: 20;
   position: fixed;
   top: 20px;
   left: 2%;
-  height: 60px;
-  width: 60px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.logo img {
+  height: 3rem;
+}
+
+.logo h1 {
+  color: var(--color-text);
+  font-size: 1rem;
+  font-weight: 500;
 }

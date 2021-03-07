@@ -1,11 +1,12 @@
 .cta {
   position: fixed;
-  bottom: 5%;
-  right: 2%;
+  bottom: 20%;
+  right: -20px;
   margin: auto;
   padding: 19px 22px;
   transition: all 0.2s ease;
   z-index: 20;
+  transform: rotate(-90deg);
 }
 .cta:before {
   content: "";
@@ -23,18 +24,18 @@
 .cta span {
   color: var(--color-text);
   position: relative;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 900;
+  line-height: 1rem;
+  font-weight: 500;
   letter-spacing: 0.25em;
   text-transform: uppercase;
   vertical-align: middle;
 }
 .cta svg {
+  width: 2rem;
+  height: 1rem;
+  padding-left: 0.4rem;
   position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
+  fill: rgb(6, 6, 6);
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke: var(--color-text);
